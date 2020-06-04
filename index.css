@@ -3,14 +3,17 @@ html {
 }
 
 * {
+    font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
     max-width: 100%;
 }
+
 
 .navBarTop{
     height: 200px;
     width: 100%;
     max-width: 100%;
+    text-align: center;
 }
 
 .navBarTop a{
@@ -20,7 +23,6 @@ html {
     display: inline-block;
     width: 0 auto;
     height: 40px;
-    text-align: center;
 }
 
 .naveBarTop a:hover {
@@ -30,6 +32,22 @@ html {
 
 body {
     font-size: 1.5rem;
+}
+
+#middleBody {
+    background-color: #DDB9A3;
+    height:300px;
+    margin: 6rem;
+    width: 92%;
+    max-width: 90%;
+}
+
+
+#middleBody p{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-top: auto auto;
 }
 
 .plan {
@@ -57,10 +75,16 @@ body {
 }
 
 .photo {
+    text-align: center;
     display:inline-block;
     margin: 0;
 }
 
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+    text-align: center;
+}
 
 #footerBody {
     text-align: center;
@@ -93,4 +117,16 @@ body {
     width: 100%;
     max-width: 100%;
     text-align: center;
+}
+
+a {
+        color: white;
+        padding: 20px 50px;
+        text-decoration: none;
+        font-size: 2.5rem;
+        border-radius: 15%;
+        width: auto;
+        text-align: center;
+        display: inline-block;
+        margin: 0 10%;
 }
